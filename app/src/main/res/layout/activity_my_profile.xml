@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="c.thenewboston.interlink2.MyProfile">
+
+ <android.support.design.widget.AppBarLayout
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/appBarLayout">
+     <include layout="@layout/app_bar_layout" android:id="@+id/myprofile_page_toolbar"/>
+
+     <android.support.design.widget.TabLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         app:tabMaxWidth="0dp"
+         app:tabGravity="fill"
+         app:tabMode="fixed"
+         android:id="@+id/main_tabs">
+
+         <android.support.design.widget.TabItem
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+                android:text="Left"
+
+             android:layout_gravity="center_vertical"/>
+
+         <android.support.design.widget.TabItem
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Center"
+             android:layout_gravity="center"/>
+
+         <android.support.design.widget.TabItem
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Right"
+             android:layout_gravity="center"
+             />
+     </android.support.design.widget.TabLayout>
+ </android.support.design.widget.AppBarLayout>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/main_tabPager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/appBarLayout">
+
+    </android.support.v4.view.ViewPager>
+</RelativeLayout>

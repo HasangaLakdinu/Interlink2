@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "1061132268566",
+    "firebase_url": "https://interlink2-d8218.firebaseio.com",
+    "project_id": "interlink2-d8218",
+    "storage_bucket": "interlink2-d8218.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1061132268566:android:9d792bfeda8d8ef5",
+        "android_client_info": {
+          "package_name": "c.thenewboston.interlink2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1061132268566-9c68batlvvd80tf6bopchad37aogbu4v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "c.thenewboston.interlink2",
+            "certificate_hash": "5a113ec5fd1908e413f8aaa93fd29607782e283c"
+          }
+        },
+        {
+          "client_id": "1061132268566-kb5v49m588gfl8cf91a19egtgkgdq7ab.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7WPcuudl8_Pxny6GFF9K2hLa3DhapxHc"
+        },
+        {
+          "current_key": "AIzaSyD7WPcuudl8_Pxny6GFF9K2hLa3DhapxHc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1061132268566-kb5v49m588gfl8cf91a19egtgkgdq7ab.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

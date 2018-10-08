@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="c.thenewboston.interlink2.PersonalFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <EditText
+        android:id="@+id/searchFieldTxt"
+        android:layout_width="match_parent"
+        android:textSize="15dp"
+        android:layout_height="wrap_content"
+        android:hint="Search User"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+       android:background="@drawable/checkshape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+       />
+
+
+    <android.support.v7.widget.RecyclerView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/recycler_view"
+        android:background="@android:color/darker_gray"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="c.thenewboston.interlink2.LoginActivity"
+    android:background="@drawable/gradient_normal"
+    >
+
+
+
+
+    <EditText
+        android:id="@+id/emailField11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+
+        android:background="@drawable/editshape"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="80dp"/>
+    <EditText
+        android:id="@+id/passwordField11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="140dp"
+        android:background="@drawable/editshape"
+        android:hint="Password here"
+
+        android:padding="10dp"
+        android:password="true" />
+
+    <Button
+        android:id="@+id/btnSubmit11"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/passwordField11"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="@color/colorRegBtn"
+        android:text="Submit" />
+    <include layout="@layout/app_bar_layout" android:id="@+id/login_page_toolbar"/>
+
+
+</RelativeLayout>

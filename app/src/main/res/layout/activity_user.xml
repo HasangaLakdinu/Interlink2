@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="c.thenewboston.interlink2.UserActivity">
+    
+<de.hdodenhof.circleimageview.CircleImageView
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:src="@drawable/profile"
+    android:id="@+id/image_view_detail"
+    android:layout_marginTop="20dp"
+    />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/msgBtn"
+        android:text="chat"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/text_view_student_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginStart="16dp"
+        android:text="User name"
+        android:layout_gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="40sp" />
+
+
+
+    <TextView
+        android:id="@+id/text_view_email_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="16dp"
+        android:text="email"
+        android:textSize="30sp" />
+
+</LinearLayout>
